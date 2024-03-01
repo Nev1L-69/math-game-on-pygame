@@ -4,7 +4,7 @@ import pygame
 pygame.init()
 
 # Установите размеры экрана
-SCREEN_WIDTH = 1400
+SCREEN_WIDTH = 1400 
 SCREEN_HEIGHT = 600
 
 # screen and title
@@ -74,7 +74,7 @@ text_score_rect = text_score.get_rect(center = (1070, 50))
 text_lose_score = big_font.render("Your score: ", True, RED)
 text_lose_score_rect = text_lose_score.get_rect(center = (700, 400))
 
-text_lost = big_font.render("The city burned, you have lost", True, RED)
+text_lost = big_font.render("The city burned, you have lost!", True, RED)
 text_lost_rect = text_lost.get_rect(center = (700, 200))
 
 text_win = big_font.render("The city saved, you win", True, YELLOW)
