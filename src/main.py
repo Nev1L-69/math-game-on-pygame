@@ -89,51 +89,51 @@ text_main_menu_start_rect = text_main_menu_start.get_rect(center = (700,270))
 
 
 # картинки меню
-main_menu_city_image = pygame.image.load('images/city/MainMenuCity.png').convert_alpha()
+main_menu_city_image = pygame.image.load('src/images/city/MainMenuCity.png').convert_alpha()
 
-city_in_game_image = pygame.image.load('images/city/CityInGame.png').convert_alpha()
+city_in_game_image = pygame.image.load('src/images/city/CityInGame.png').convert_alpha()
 
-in_game_background = pygame.image.load('images/city/sky.png').convert_alpha()
+in_game_background = pygame.image.load('src/images/city/sky.png').convert_alpha()
 
-lose_background = pygame.image.load('images/city/LoseCity.png').convert_alpha()
+lose_background = pygame.image.load('src/images/city/LoseCity.png').convert_alpha()
 
-calc_menu = pygame.image.load('images/Calculator/CalcMenu.png').convert_alpha()
+calc_menu = pygame.image.load('src/images/Calculator/CalcMenu.png').convert_alpha()
 
 meteor = [
-          pygame.image.load('images/meteor/rotationY1.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY2.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY3.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY4.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY5.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY6.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY7.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY8.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY9.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY10.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY11.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY12.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY13.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY14.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY15.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY16.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY17.png').convert_alpha(),
-          pygame.image.load('images/meteor/rotationY18.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY1.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY2.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY3.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY4.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY5.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY6.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY7.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY8.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY9.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY10.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY11.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY12.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY13.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY14.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY15.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY16.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY17.png').convert_alpha(),
+          pygame.image.load('src/images/meteor/rotationY18.png').convert_alpha(),
 ]
 
 
 explosion = [
-    pygame.image.load('images/explosion/Explosion1.png').convert_alpha(),
-    pygame.image.load('images/explosion/Explosion2.png').convert_alpha(),
-    pygame.image.load('images/explosion/Explosion3.png').convert_alpha(),
-    pygame.image.load('images/explosion/Explosion4.png').convert_alpha(),
-    pygame.image.load('images/explosion/Explosion5.png').convert_alpha(),
-    pygame.image.load('images/explosion/Explosion6.png').convert_alpha(),
-    pygame.image.load('images/explosion/Explosion7.png').convert_alpha(),
-    pygame.image.load('images/explosion/Explosion8.png').convert_alpha(),
-    pygame.image.load('images/explosion/Explosion9.png').convert_alpha(),
-    pygame.image.load('images/explosion/Explosion10.png').convert_alpha(),
-    pygame.image.load('images/explosion/Explosion11.png').convert_alpha(),
-    pygame.image.load('images/explosion/Explosion12.png').convert_alpha(),
+    pygame.image.load('src/images/explosion/Explosion1.png').convert_alpha(),
+    pygame.image.load('src/images/explosion/Explosion2.png').convert_alpha(),
+    pygame.image.load('src/images/explosion/Explosion3.png').convert_alpha(),
+    pygame.image.load('src/images/explosion/Explosion4.png').convert_alpha(),
+    pygame.image.load('src/images/explosion/Explosion5.png').convert_alpha(),
+    pygame.image.load('src/images/explosion/Explosion6.png').convert_alpha(),
+    pygame.image.load('src/images/explosion/Explosion7.png').convert_alpha(),
+    pygame.image.load('src/images/explosion/Explosion8.png').convert_alpha(),
+    pygame.image.load('src/images/explosion/Explosion9.png').convert_alpha(),
+    pygame.image.load('src/images/explosion/Explosion10.png').convert_alpha(),
+    pygame.image.load('src/images/explosion/Explosion11.png').convert_alpha(),
+    pygame.image.load('src/images/explosion/Explosion12.png').convert_alpha(),
     
 
 ]
@@ -275,8 +275,8 @@ cnt = 0
 
 
 #Звуки
-explosion_sound = pygame.mixer.Sound('sounds/explodemini.wav')
-pop_sound = pygame.mixer.Sound('sounds/pop2.ogg')
+explosion_sound = pygame.mixer.Sound('src/sounds/explodemini.wav')
+pop_sound = pygame.mixer.Sound('src/sounds/pop2.ogg')
 
 
 
