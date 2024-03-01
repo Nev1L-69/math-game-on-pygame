@@ -176,9 +176,6 @@ class Buble:
         else: 
             self.answer = generate_diff_eq(self.num1, self.num2)
             
-
-
-
     def move(self):
         self.y += self.speed
 
