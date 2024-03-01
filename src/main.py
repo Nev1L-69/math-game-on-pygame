@@ -277,7 +277,9 @@ cnt = 0
 #Звуки
 explosion_sound = pygame.mixer.Sound('src/sounds/explodemini.wav')
 pop_sound = pygame.mixer.Sound('src/sounds/pop2.ogg')
-
+pygame.mixer.music.load('src/sounds/tillichetto.mp3')
+pygame.mixer.music.set_volume(0.01)
+pygame.mixer.music.play(-1)
 
 
 
