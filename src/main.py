@@ -83,9 +83,11 @@ text_win_rect = text_win.get_rect(center = (700, 200))
 text_to_main_menu = big_font.render("To main menu", True, RED)
 text_to_main_menu_rect = text_to_main_menu.get_rect(center = (700, 300))
 
-
 text_main_menu_start = big_font.render("Deffend the city", True, YELLOW)
 text_main_menu_start_rect = text_main_menu_start.get_rect(center = (700,270))
+
+text_advice = font.render("Type on your keyboard to enter the answer!", True, WHITE)
+text_advice_rect = text_advice.get_rect(center = (1100, 540))
 
 
 # картинки меню
@@ -435,6 +437,7 @@ while running:
         screen.blit(in_game_background, (0,0))
         screen.blit(in_game_background, (320,0))
         screen.blit(calc_menu, (950, 140))
+        screen.blit(text_advice, text_advice_rect)
 
         rectangle.draw(screen)
 
