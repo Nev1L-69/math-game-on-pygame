@@ -99,7 +99,7 @@ in_game_background = pygame.image.load('src/images/city/sky.png').convert_alpha(
 
 lose_background = pygame.image.load('src/images/city/LoseCity.png').convert_alpha()
 
-calc_menu = pygame.image.load('src/images/Calculator/CalcMenu.png').convert_alpha()
+calc_menu = pygame.image.load('src/images/Calculator/CalcMenu.png').convert_alpha() 
 
 meteor = [
           pygame.image.load('src/images/meteor/rotationY1.png').convert_alpha(),
